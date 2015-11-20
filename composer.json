@@ -14,5 +14,5 @@
         	"Bouda\\": "src/Bouda/"
         }
     },
-    "bin": ["converter.php"]
+    "bin": ["convert.php"]
 }
