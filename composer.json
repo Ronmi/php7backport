@@ -1,4 +1,6 @@
 {
+    "name": "ronmi/php7converter",
+    "description": "Tool for backporting PHP7 scripts to PHP5, forked from https://github.com/ondrejbouda/php7backport",
     "require": {
         "php": ">=5.4.0",
         "nikic/php-parser": "1.4.0"
@@ -11,5 +13,6 @@
         "psr-4": {
         	"Bouda\\": "src/Bouda/"
         }
-    }
+    },
+    "bin": ["converter.php"]
 }
